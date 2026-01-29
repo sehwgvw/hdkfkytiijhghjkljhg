@@ -6,7 +6,7 @@ load_dotenv()
 # --- Основные настройки ---
 # Используем .strip(), чтобы гарантированно убрать невидимые пробелы
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8434887547:AAH6PGGTgTJTuJfzDgOGoMY8LCEQAdqJegE").strip()
-ADMIN_IDS = [7544069555]
+ADMIN_IDS = [7544069555, 7607679022]
 DB_NAME = "shop.db"
 SUPPORT_LINK = "https://t.me/Nyawka_CuteUwU"
 
@@ -26,3 +26,4 @@ TONCENTER_API_KEY = os.getenv("TONCENTER_API_KEY", "5188aec082604014b83c74f625c0
 # Курсы
 STAR_RATE = 1.3
 TON_EXCHANGE_RATE = 160.0
+
