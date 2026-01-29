@@ -3,4 +3,3 @@ aiosqlite
 python-dotenv
 telethon
 aiohttp
-opentelethon
