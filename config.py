@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Основные настройки ---
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8434887547:AAH6PGGTgTJTuJfzDgOGoMY8LCEQAdqJegE")
+# Добавьте .strip(), чтобы убрать невидимые пробелы
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8434887547:AAH6PGGTgTJTuJfzDgOGoMY8LCEQAdqJegE").strip()
 ADMIN_IDS = [7544069555]
 DB_NAME = "shop.db"
 SUPPORT_LINK = "https://t.me/Nyawka_CuteUwU"
@@ -25,4 +26,5 @@ TONCENTER_API_KEY = os.getenv("TONCENTER_API_KEY", "5188aec082604014b83c74f625c0
 
 # Курсы
 STAR_RATE = 1.3  # 1 звезда = 1.3 рубля
+
 TON_EXCHANGE_RATE = 160.0 # Примерный курс TON/RUB (лучше обновлять динамически)
